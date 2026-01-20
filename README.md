@@ -1,30 +1,29 @@
+# AM & FM Signal Transmission and Reception Simulator
 
-3. Click **Commit new file**
+This project demonstrates the working of **Amplitude Modulation (AM)** and
+**Frequency Modulation (FM)** using Python.
 
----
+## Objective
+To simulate AM and FM signal transmission and reception and visualize the
+effect of noise in communication systems.
 
-### Option B (VS Code method)
-If you want, I can guide you step-by-step for this too.
+## Features
+- Signal generation
+- AM modulation and demodulation
+- FM modulation and demodulation
+- Noise analysis
+- Interactive plots using Streamlit
+- Export plots as PDF
 
----
+## Technologies Used
+- Python
+- Streamlit
+- NumPy
+- Matplotlib
+- ReportLab
 
-# ⭐ STEP 3: Final Check
-After pushing:
-- Repo looks **clean**
-- No unwanted files
-- Faculty-friendly structure
-- Resume-ready project 🎓
+## How to Run
+```bash
+pip install streamlit matplotlib numpy reportlab
+streamlit run streamlit_app.py
 
----
-
-## 🎤 How to explain this to faculty
-> “I used GitHub for version control, created a modular Python-based simulator for AM and FM, and deployed the complete source code with documentation.”
-
----
-
-## 🚀 What next? (Your choice)
-- ✅ Deploy this on **Streamlit Cloud** (LIVE demo link)
-- ✅ Create **PPT for viva**
-- ✅ Write **project report PDF**
-
-Just tell me what you want next 👍
